@@ -18,4 +18,4 @@ ros-humble-turtlesim = "*"
 
 [environments]
 jazzy = ["jazzy"]
-default = ["humble"]
+humble = ["humble"]
