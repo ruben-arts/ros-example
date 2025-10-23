@@ -24,4 +24,4 @@ jobs:
             environments: ${{ matrix.environment }}
 
       - name: Test
-        run: pixi run ros2 pkg list
+        run: pixi run -e ${{ matrix.environment }} ros2 pkg list
