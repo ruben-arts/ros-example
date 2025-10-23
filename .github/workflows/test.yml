@@ -8,8 +8,8 @@ on:
       - main
 
 jobs:
-  build:
-    name: Build on ${{ matrix.os }}
+  install:
+    name: ${{ matrix.environment }} env on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
